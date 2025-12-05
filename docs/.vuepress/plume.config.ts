@@ -49,10 +49,10 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: '/additionfile/avatar.jpg',
+    avatar: '/additionfile/profile.jpg',
     name: "YNZJ's teahouse",
-    description: "这是一间茶馆，新建的还不错，进来歇歇脚 听听故事吧。",
-    // circle: true,
+    description: "———上图不定期更新———这算是一间茶馆，进来歇歇脚，听听故事吧",
+    circle: true,
     // location: '',
     // organization: '',
   },
