@@ -1,23 +1,23 @@
 ---
-pageLayout: home
-externalLinkIcon: false
+home: true
 config:
   -
-    type: hero
-    full: true
-    forceDark: true
-    effect: lightning
+    type: banner
+    banner: /additionfile/background.png
+    bannerMask:
+      light: 0.1
+      dark: 0.3
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 这里
+      tagline: 茶馆
+      text: 对.. 来了坐吧 看看故事
       actions:
         -
-          theme: brand
-          text: 博客
+          text: Enter
           link: /blog/
-        -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+        # -
+        #   text: Github
+        #   link: https://github.com/pengzhanbo
+        #   theme: alt
 ---
