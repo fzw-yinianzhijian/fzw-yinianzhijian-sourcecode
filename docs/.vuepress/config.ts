@@ -17,7 +17,7 @@ export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: "YNZJ's teahouse",
-  description: '这是一间茶馆，新建的还不错，进来歇歇脚 听听故事吧。',
+  description: '这是一间茶馆，进来歇歇脚 看看故事吧。',
 
   head: [
     // 配置站点图标
