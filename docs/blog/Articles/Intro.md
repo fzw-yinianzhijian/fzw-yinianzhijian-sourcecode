@@ -24,6 +24,8 @@ permalink: /blog/Intro/
 若你有什么感想启发，或者想聊话题，欢迎随时 mail 我！
 
 ynzj-teahouse@foxmail.com
+
+btw 欢迎友链。
 :::
 
 ### Intro
