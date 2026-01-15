@@ -4,6 +4,12 @@ tags:
   - Pinned
 createTime: 2025/12/06 00:18:00
 permalink: /blog/Intro/
+cover: /additionfile/intro-board.png
+coverStyle:
+  layout: top
+  ratio: 0.48364
+  # width: 200
+sticky: 100
 ---
 
 ::: note 公告板
@@ -42,4 +48,7 @@ btw 欢迎友链。
 
 ......
 
+噢，你说现在啊。
+
+每天会随手写一点咯
 
