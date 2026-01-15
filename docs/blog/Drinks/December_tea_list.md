@@ -1,41 +1,15 @@
 ---
-title: 每日茶水单
+title: 十二月特辑
 tags:
   - Pinned
 createTime: 2025/12/08 00:02:00
-permalink: /blog/Daily_tea_list/
-cover: /additionfile/Drink_card.png
-coverStyle:
-  layout: top
-  ratio: 0.48241
+permalink: /blog/December_tea_list/
+# cover: /additionfile/Drink_card.png
+# coverStyle:
+#   layout: top
+#   ratio: 0.48241
 # sticky: 100
 ---
-
-
-
-::: note Board
-
-最近听朋友说，每日的随记不应该是流水，喝起来平平淡淡索然无味。
-
-一篇日记无论记录什么，应该有个题目，这也是对今天一整天的最好描述。
-
-茶名是对文章的 AI 总结，而下面的句子是对文章的**简单摘抄**。
-
-全文太 boring 了，选点有意思的 ✅。
-
-:::
-
-
-
-<LinkCard title="十二月特辑" href="/blog/December_tea_list/">
-
-  - 这里是卡片内容
-  - 这里是卡片内容
-
-</LinkCard>
-
----
-<br>
 
 ### 12.7 《奇绩，新朋友，静心 聪明头脑 与 loser》
 
