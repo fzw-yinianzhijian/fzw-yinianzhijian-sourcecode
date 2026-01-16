@@ -30,8 +30,8 @@ sticky: 99
 
 <LinkCard title="一月特辑" href="/blog/January_tea_list/">
 
-  - 这里是卡片内容
-  - 这里是卡片内容
+  - 图片施工中
+  - 一月特辑
 
 </LinkCard>
 
