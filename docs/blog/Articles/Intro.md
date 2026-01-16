@@ -34,6 +34,8 @@ ynzj-teahouse@foxmail.com
 btw 欢迎友链。
 :::
 
+![Intro](/additionfile/intro-board.png)
+
 ### Intro
 
 来了，坐，不急不急。
@@ -48,7 +50,24 @@ btw 欢迎友链。
 
 ......
 
-噢，你说现在啊。
+### 栏目
 
-每天会随手写一点咯
+<LinkCard title="茶水单" href="/blog/Drinks/Daily_tea_list_board/">
+
+
+
+</LinkCard>
+
+<LinkCard title="早些时候" href="/blog/Memory/Past_memories/">
+
+</LinkCard>
+
+
+### 最近更新
+
+
+<LinkCard title="一月特辑" href="/blog/Drinks/January_tea_list/">
+
+
+</LinkCard>
 

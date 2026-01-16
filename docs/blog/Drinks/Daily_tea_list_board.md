@@ -1,9 +1,9 @@
 ---
-title: 每日茶水单
+title: 茶水单
 tags:
   - Pinned
 createTime: 2025/12/08 00:02:00
-permalink: /blog/Daily_tea_list_board/
+permalink: /blog/Drinks/Daily_tea_list_board/
 cover: /additionfile/Drink_card.png
 coverStyle:
   layout: top
@@ -28,14 +28,15 @@ sticky: 99
 :::
 
 
-<LinkCard title="一月特辑" href="/blog/January_tea_list/">
+<LinkCard title="一月特辑" href="/blog/Drinks/January_tea_list/">
 
   - 图片施工中
-  - 一月特辑
 
 </LinkCard>
 
-<LinkCard title="十二月特辑" href="/blog/December_tea_list/">
+<LinkCard title="十二月特辑" href="/blog/Drinks/December_tea_list/">
+
+<!-- <img src="/additionfile/December.png" alt="December" width="400"> -->
 
 ![December](/additionfile/December.png)
 

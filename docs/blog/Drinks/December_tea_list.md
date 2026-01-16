@@ -2,13 +2,8 @@
 title: 十二月特辑
 tags:
   - Pinned
-createTime: 2025/12/08 00:02:00
-permalink: /blog/December_tea_list/
-# cover: /additionfile/Drink_card.png
-# coverStyle:
-#   layout: top
-#   ratio: 0.48241
-# sticky: 100
+createTime: 2026/01/16 00:34:00
+permalink: /blog/Drinks/December_tea_list/
 ---
 随笔好像不像是传统日记，比如经典日记开头应该是“2025年12月7日，天气晴，今天开始我要写博客啦，开心”，这种老派的日记还是让他留在小学生的笔头下吧。
 
@@ -20,6 +15,8 @@ permalink: /blog/December_tea_list/
 
 欢迎来看看这里的日常
 
+
+![December](/additionfile/December.png)
 
 ### 12.7 《奇绩，新朋友，静心 聪明头脑 与 loser》
 

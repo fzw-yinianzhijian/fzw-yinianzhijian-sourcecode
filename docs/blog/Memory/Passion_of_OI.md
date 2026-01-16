@@ -1,9 +1,9 @@
 ---
 title: 再满怀热爱的做一点 OI 吧。
 tags:
-  - OI-
+  - flower
 createTime: 2023/11/29 12:14:00
-permalink: /blog/Memory/Passion of OI/
+permalink: /blog/Memory/Passion_of_OI/
 ---
 
 
