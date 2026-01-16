@@ -4,7 +4,7 @@ subtitle: ——关注心意转变塑造
 tags:
   - Pinned
 createTime: 2025/12/20 13:50:00
-permalink: /blog/A_Chinese_Odyssey/
+permalink: /blog/Study/A_Chinese_Odyssey/
 ---
 
 

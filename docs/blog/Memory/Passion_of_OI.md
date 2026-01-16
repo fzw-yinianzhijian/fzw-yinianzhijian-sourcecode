@@ -2,6 +2,7 @@
 title: 再满怀热爱的做一点 OI 吧。
 tags:
   - flower
+  - OI-journal
 createTime: 2023/11/29 12:14:00
 permalink: /blog/Memory/Passion_of_OI/
 ---
