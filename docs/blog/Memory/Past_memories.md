@@ -31,5 +31,5 @@ permalink: /blog/Memory/Past_memories/
 
 - OI-journal
 
-游记总结之类的。
+与一段经历相关的内容。
 
