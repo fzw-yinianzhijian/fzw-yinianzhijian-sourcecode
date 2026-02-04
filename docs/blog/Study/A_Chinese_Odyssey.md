@@ -2,7 +2,8 @@
 title: 写作与沟通论文：论《大话西游》中代入式情感体验
 subtitle: ——关注心意转变塑造
 tags:
-  - Pinned
+  - Study
+  - Movie
 createTime: 2025/12/20 13:50:00
 permalink: /blog/Study/A_Chinese_Odyssey/
 ---

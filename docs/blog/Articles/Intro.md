@@ -54,8 +54,6 @@ btw 欢迎友链。
 
 <LinkCard title="茶水单" href="/blog/Drinks/Daily_tea_list_board/">
 
-
-
 </LinkCard>
 
 <LinkCard title="早些时候" href="/blog/Memory/Past_memories/">
@@ -63,11 +61,28 @@ btw 欢迎友链。
 </LinkCard>
 
 
-### 最近更新
+### 长期更新
 
-
-<LinkCard title="一月特辑" href="/blog/Drinks/January_tea_list/">
-
+<LinkCard title="一点闲书与抄写" href="/blog/Articles/Reading_clips/">
 
 </LinkCard>
 
+<LinkCard title="谈电影观-电影短评推荐" href="/blog/Articles/Short_recommendation/">
+
+</LinkCard>
+
+<LinkCard title="简单命令总结" href="/blog/Study/Tricks/">
+
+</LinkCard>
+
+### 最近更新
+
+<LinkCard title="一月特辑 - 在不可抗力的缝隙里，手搓一朵玻璃花" href="/blog/Drinks/January_tea_list/">
+
+</LinkCard>
+
+<LinkCard title="十二月特辑 - 在半盏温凉里，确认生命的温度" href="/blog/Drinks/December_tea_list/">
+
+</LinkCard>
+
+### 施工中

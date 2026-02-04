@@ -27,9 +27,32 @@ permalink: /blog/Memory/Past_memories/
 
 鲜花顾名思义闲话，一些简单的休闲文章。
 
+<LinkCard title="临时鲜花" href="/blog/Memory/A_temporary_flower/">
+
+</LinkCard>
+
+<LinkCard title="再满怀热爱的做一点 OI 吧。" href="/blog/Memory/Passion_of_OI/">
+
+</LinkCard>
+
+<LinkCard title="刻意" href="/blog/Memory/Intentionally/">
+
+</LinkCard>
+
+<LinkCard title="愿，！" href="/blog/Memory/Wish/">
+
+</LinkCard>
+
 
 
 - OI-journal
 
 与一段经历相关的内容。
 
+<LinkCard title="倒数第二场-CTT" href="/blog/Memory/CTT/">
+
+</LinkCard>
+
+<LinkCard title="最后一战-CTS" href="/blog/Memory/CTS/">
+
+</LinkCard>
