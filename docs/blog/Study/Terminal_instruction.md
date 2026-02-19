@@ -31,7 +31,7 @@ Windows 命令行很难用，建议用 `wsl` or `mysys2` 但是第二个始终�
 - `ssh` 远程连接到服务器,可以配置 .ssh/config 来简化链接，
 - `scp` 简单发文件到服务器上发送到 Windows 的例子
 ```bash
-scp ~/.vimrc 冯政玮@100.101.21.35:E:\\msys2\\home\\冯政玮
+scp ~/.vimrc user@100.101.21.35:E:\\msys2\\home\\user
 ```
 - `top`/`htop` 查看系统进程，以及内存使用情况
 - `du -sh ./*` 查看当前目录下所有文件和目录的大小
