@@ -256,7 +256,9 @@ Host $name
 
 ssh 端口转发（感谢 bear 解答疑惑）：
 
-`ssh -L 8080:localhost:7777 user@server` 将本地的 8080 端口转发到服务器的 localhost:7777 端口，意思是本地访问 8080 端口就会转发到服务器的 localhost:7777 端口。
+例如 `ssh -L 8080:localhost:7777 user@server` 
+将本地的 8080 端口转发到服务器的 localhost:7777 端口，意思是本地访问 8080 端口就会转发到服务器的 localhost:7777 端口。
+
 `ssh -L [本地监听端口]:[目标主机]:[目标端口] [SSH服务器用户名]@[SSH服务器地址]`
 这里意思是走本地一个端口 实际上 让server访问目标主机的目标端口。
 
@@ -270,6 +272,8 @@ ssh 端口转发（感谢 bear 解答疑惑）：
 宝塔面板：
 `wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh && sudo bash install_panel.sh ed8484bec`
 
-去官网上看，安装了会给你一个账号用户，帮你看系统信息，可以方便的管理，如果上不去可以转发端口。
+去官网上看，安装了会给你一个账号用户，帮你看系统信息，可以方便的管理，也可以直接在上面操控端口开关，如果上不去可以转发端口。
+
+
 
 
