@@ -51,7 +51,7 @@ export default defineThemeConfig({
   profile: {
     avatar: '/additionfile/profile.jpg',
     name: "YNZJ's teahouse",
-    description: "———上图 不定期 更新———这算是一间茶馆，进来歇歇脚，看看故事吧。[2026-2-4]",
+    description: "———上图 不定期 更新———这算是一间茶馆，进来歇歇脚，看看故事吧。[2026-2-24]",
     circle: true,
     // location: '',
     // organization: '',
