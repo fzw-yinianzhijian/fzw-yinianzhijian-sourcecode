@@ -8,7 +8,7 @@ permalink: /blog/Study/Terminal_instruction/
 
 这里是命令行入门，讲一些简单的实用工具与内容。
 
-### 基础命令行
+### **基础命令行**
 
 对于 Linux 命令行在根目录有 `.bashrc` 文件，可以在这个文件中配置环境变量，别名，函数等，如果当前状况不对，比如刚 ssh 上去之类的，可以先 `source ~/.bashrc` 一下。
 
@@ -39,9 +39,14 @@ scp ~/.vimrc user@100.101.21.35:E:\\msys2\\home\\user
 - `free -h` 查看内存使用情况
 - `df -h` 查看磁盘使用情况
 
+宝塔面板：
+`wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh && sudo bash install_panel.sh ed8484bec`
+
+去官网上看，安装了会给你一个账号用户，帮你看系统信息，可以方便的管理，也可以直接在上面操控端口开关，如果上不去可以转发端口。
+
 ---
 
-网络与端口扫描
+#### **网络与端口扫描**
 
 - `curl ifconfig.me` 查看本机公网 IP
 - `nmap -sT ip` 用 TCP 扫描端口，时间较久，返回示例
@@ -61,7 +66,7 @@ Nmap done: 1 IP address (1 host up) scanned in 42.81 seconds
 ```
 - `curl -I ip:port` 查看当前 ip 的链接信息，默认是 80 端口如果不指定，-I 是不下载东西只获取信息
 
-如何开放端口？
+#### **如何开放端口？**
 
 对于 `linux` 可以用 `ufw` 或者 `firewalld` 来开放端口。
 
@@ -81,7 +86,7 @@ ufw 和 firewalld 是进行了一些封装的工具，其实本质上都是在 i
 可以用 `ping` 测试延迟，但是 `ping` 不是 TCP 也不是 UDP 协议，而是 ICMP 协议，理解为不一样就可以了。
 
 
-### Vim
+### **Vim**
 
 模式分为 默认模式/编辑模式/选择模式，按 `i` 和 `v` 切换，`a` 是当前指针靠后一个，`esc` 退出。
 
@@ -116,7 +121,7 @@ ufw 和 firewalld 是进行了一些封装的工具，其实本质上都是在 i
 :::
 
 
-### tmux
+### **tmux**
 
 这是一个很好用的终端后台工具，会持续保持运行，远程服务器可以一直挂着，不用一直用 `ssh` 保持链接。
 
@@ -149,7 +154,7 @@ tmux 会分为三层，session，window，panel。
 - +`:` 进入命令模式，一个是 rename-session $new_name 重命名当前 session。
 
 
-### 环境管理
+### **环境管理**
 
 ::: note python venv
 
@@ -179,7 +184,7 @@ tmux 会分为三层，session，window，panel。
 
 :::
 
-### docker 容器
+### **docker 容器**
 
 单个机子上跑的虚拟容器，用于隔离和运行程序，类似虚拟机，但比虚拟机轻量级。
 
@@ -231,7 +236,7 @@ formyself，去看看 `deploy` 文件夹下面的例子就大概知道了。
 
 可以多问 `AI`，这里只是一个 `AI` 询问的总结。
 
-### 调试技巧
+### **调试技巧**
 
 对于网页可以 f12 看当前的控制台和报错信息，看网络连接，返回的请求和参数。
 
@@ -239,7 +244,7 @@ formyself，去看看 `deploy` 文件夹下面的例子就大概知道了。
 
 注意，本地浏览器是有缓存的，就如果服务器这边断了你可能还是能访问上网页
 
-### ssh 内容
+### **ssh 内容**
 
 首先是 config 配置，一般是 ssh $user@$ip 这样连接，可以配置验证文件，默认是 `id_rsa`
 ```
@@ -269,10 +274,9 @@ ssh 端口转发（感谢 bear 解答疑惑）：
 这里意思建立 socket 代理，本地访问 socket 代理端口就会转发到服务器的 ssh 连接（把浏览器设置为这个端口代理，所有流量都从对面主机过）。
 （注意，不能直接做 vpn 会被检测到）
 
-宝塔面板：
-`wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh && sudo bash install_panel.sh ed8484bec`
+注意，如何是用 vscode/cursor ssh remote 的话，在里面命令行打开网页或者什么端口会自动转发到本地。可以在`端口`一栏看到情况
 
-去官网上看，安装了会给你一个账号用户，帮你看系统信息，可以方便的管理，也可以直接在上面操控端口开关，如果上不去可以转发端口。
+
 
 
 

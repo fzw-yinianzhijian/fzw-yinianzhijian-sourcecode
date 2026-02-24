@@ -4,7 +4,7 @@ tags:
   - Study
 createTime: 2026/02/05 09:05:00
 permalink: /blog/Study/Model/
-article: false
+article: true
 ---
 
 ### 下载模型
@@ -55,14 +55,51 @@ python -m vllm.entrypoints.openai.api_server \
     --host 0.0.0.0 \
     --port 8000 \
     --gpu-memory-utilization 0.9 \
-    --max-model-len 4096
+    --max-model-len 4096 \
+    --tensor-parallel-size 4 \
+    --served-model-name gemma_test
 ```
 
+--model 模型地址，如果是名字自动上 hugging face 上下载，默认放到 ~/.cache/huggingface/hub/ 下。
 
-??太神奇了 小伙立正了，怎么我在本机能访问的？
-感觉发现问题之后就一下子清醒了。
+--trust-remote-code 信任远程代码，允许使用远程代码，除了权重文件以外的内容。
 
-原来这里的终端会自动把东西 ssh 过来吗 太神秘了吧。
+--host 监听地址，0.0.0.0 表示监听所有地址。
 
-确实很清晰，在 cursor 里面点击端口。
-欸 这个好玩耶
+--port 监听端口，8000 表示监听 8000 端口。
+
+--gpu-memory-utilization 显卡内存利用率，0.9 表示利用 90% 的显卡内存。
+
+--max-model-len 模型最大长度，4096 表示最大长度为 4096。
+
+--tensor-parallel-size `<N>` 显卡并行数量，`<N>` 表示使用 `<N>` 个显卡。
+
+--served-model-name `<NAME>` 服务模型名称，`<NAME>` 表示服务模型名称，不然是默认名字，可能是路径啥的。
+
+- `http://localhost:8000/v1/models` 查看当前模型列表。
+提问：一个端口可以跑多个模型吗？AI 这边给我的答复是同时只能跑一个。
+- `http://localhost:8000/v1/completions` 生成文本。
+- `http://localhost:8000/v1/chat/completions` 生成对话。
+
+最好的 GET 方法是直接在浏览器里输入。
+
+```
+curl http://localhost:8000/v1/completions \
+    -H "Content-Type: application/json" \
+    -d '{
+        "model": "gemma_test",
+        "prompt": "San Francisco is a",
+        "max_tokens": 7,
+        "temperature": 0
+    }'
+
+curl http://loaclhost:8000/v1/chat/completions \
+    -H "Content-Type: application/json" \
+    -d '{
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "messages": [
+            {"role": "system", "content": "You are a helpful assistant."},
+            {"role": "user", "content": "Who won the world series in 2020?"}
+        ]
+    }'
+```
