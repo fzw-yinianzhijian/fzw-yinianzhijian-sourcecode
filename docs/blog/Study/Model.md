@@ -7,6 +7,13 @@ permalink: /blog/Study/Model/
 article: true
 ---
 
+一些手玩的小玩意儿，备个份: `https://github.com/fzw-yinianzhijian/fzw_test`
+
+
+### nano GPT2 代码阅读
+
+To Be filled.
+
 ### 下载模型
 
 这里就说怎么从 `huggingface` 上下载了，正常情况下你直接调用 `transformer` 库或者相关内容的时候他都会自己下载，会存在缓存里，具体位置在 `~/.cache/huggingface/hub/` 下，你发现里面每个模型有个 `blobs` 文件夹，确实是模型数据，但是显示的是 hash 值。
@@ -35,6 +42,7 @@ env | grep huggingface_api # 查看当前环境变量有没有
 
 export HF_ENDPOINT=https://hf-mirror.com #可选，在下载之前
 huggingface-cli download google/gemma-7b-it --local-dir ./model_weights --token $huggingface_api
+# p.s 说是被废弃了，可以用 hf download 是一样的
 ```
 
 一个加速小方法。
@@ -103,3 +111,5 @@ curl http://loaclhost:8000/v1/chat/completions \
         ]
     }'
 ```
+
+啊 注意，有些 chat 是没有 system role 的，可以直接上 :8000/docs 看说明，也可以在上面测试。
