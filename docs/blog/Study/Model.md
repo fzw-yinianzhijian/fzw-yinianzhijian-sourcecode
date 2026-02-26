@@ -113,3 +113,18 @@ curl http://loaclhost:8000/v1/chat/completions \
 ```
 
 啊 注意，有些 chat 是没有 system role 的，可以直接上 :8000/docs 看说明，也可以在上面测试。
+
+
+`gemma-7b-it` instruction model 好像会直接补充你说的话，没有 system 的 role。
+`deepseek-r1-distill-qwen-7b` 还在尝试，怎么感觉有点糖。
+
+可以在外面套一层 FastAPI ，验证之后把需求转发出来，只要你后端是安全的那就是安全的，example：testcode/vllm_server.py。
+
+可以控制并发量，可以控制鉴权，还没试过 vllm 的 api 。
+
+```
+curl -X POST http://localhost:5000/api/v1/generate \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer test_fzw_key" \
+  -d '{"prompt": "Hello world"}'
+```
