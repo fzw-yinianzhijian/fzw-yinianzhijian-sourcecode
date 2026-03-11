@@ -9,10 +9,21 @@ permalink: /blog/Study/Openclaw_guide/
 
 ## 第一部分：openclaw 是什么
 
-- 待补充：一句话介绍 openclaw 的定位与用途。
-- 官方文档：<https://docs.openclaw.ai>
-- 官方仓库：<https://github.com/openclaw/openclaw>
-- 待补充：适合什么人、典型使用场景。
+openclaw 说白了，就是一个跑在服务器上的 agent 框架。它最让我眼前一亮的一点，是可以接到多个聊天平台里使用（比如 Discord、Telegram 这类），这样你在手机上就能直接“发消息调度它干活”，交互成本非常低。
+
+我自己上手之后，能明显感受到它不是那种只会聊天的壳子，而是一个“能实际执行任务”的工作流入口。包括但不限于：
+
+- 信息抓取（支持浏览器操作，包含登录态场景）
+- coding（写代码、改代码、跑命令、排查问题）
+- writing（整理文档、写博客、做结构化输出）
+- scheduling（任务编排、分步执行、持续迭代）
+
+说个很主观但真实的感受：第一次把 codex 放在 openclaw 这套命令行原生链路里跑起来时，体验和我在 Cursor 里用模型是两种感觉。不是谁替代谁，而是“工作半径”不一样——在命令行原生工具链里，能调度的动作更多，流程也更连续。
+
+官方文档：
+
+- <https://docs.openclaw.ai>
+- <https://github.com/openclaw/openclaw>
 
 ## 第二部分：怎么安装
 
