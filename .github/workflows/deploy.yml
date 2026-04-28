@@ -47,6 +47,8 @@ jobs:
       # 部署到目标仓库的 main 分支根目录
       # Deploy to the main branch root directory of the target repository
       - name: Deploy to GitHub Pages
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
         run: |
           cd docs/.vuepress/dist
           git init
@@ -57,5 +59,5 @@ jobs:
           git commit -m "Deploy from ${{ github.repository }}@${{ github.sha }}" || exit 0
           # 如果 remote 已存在则更新，否则添加
           git remote remove origin 2>/dev/null || true
-          git remote add origin https://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@github.com/fzw-yinianzhijian/fzw-yinianzhijian.github.io.git
+          git remote add origin https://x-access-token:${DEPLOY_TOKEN}@github.com/fzw-yinianzhijian/fzw-yinianzhijian.github.io.git
           git push -f origin main
