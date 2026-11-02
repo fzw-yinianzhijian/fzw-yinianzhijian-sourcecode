@@ -77,12 +77,25 @@ btw 欢迎友链。
 
 ### 最近更新
 
-<LinkCard title="一月特辑 - 在不可抗力的缝隙里，手搓一朵玻璃花" href="/blog/Drinks/January_tea_list/">
-
-</LinkCard>
-
-<LinkCard title="十二月特辑 - 在半盏温凉里，确认生命的温度" href="/blog/Drinks/December_tea_list/">
-
-</LinkCard>
+<RecentPosts />
 
 ### 施工中
+
+#### Tag 导览
+
+茶馆里的东西慢慢多起来了，先把桌上的小标签理一理，这里做一个标签内容的梳理，后续也会根据这个来更新。
+
+| Tag | 这里装些什么 | 可以从这些文章逛起 |
+| --- | --- | --- |
+| [Pinned](/blog/tags/?tag=Pinned) | 公告板和栏目入口，方便刚来的朋友认识茶馆、找到故事。 | 《Intro-Board》《茶水单》 |
+| [Monthly](/blog/tags/?tag=Monthly) | 按月装订的茶水单，收集那段时间的日常、随感和回望。 | 《十二月特辑》《一月特辑》《二月特辑》 |
+| [flower](/blog/tags/?tag=flower) | “鲜花”，也就是闲话。比较自由的生活碎念、心情和个人思考，不必有什么正式题目。 | 《临时鲜花》《刻意》《愿，！》 |
+| [OI-journal](/blog/tags/?tag=OI-journal) | 信息学竞赛这段旅程的记录：比赛、集训，以及一路上的热爱、犹豫和告别。 | 《倒数第二场-CTT》《最后一战-CTS》《再满怀热爱的做一点 OI 吧。》 |
+| [Random_things](/blog/tags/?tag=Random_things) | 随兴展开的兴趣杂谈，目前主要是读书、电影和游戏。常与更具体的主题标签一起使用。 | 《围城书评》《让子弹飞》《游戏史 - 序言》 |
+| [Reading](/blog/tags/?tag=Reading) | 读书时留下的摘抄、片段和感想，也放稍微完整一点的书评。 | 《一点闲书与抄写》《围城书评》 |
+| [Movie](/blog/tags/?tag=Movie) | 和电影有关的文字，从短评推荐、观后感，到围绕电影展开的分析与论文。 | 《谈电影观-电影短评推荐》《让子弹飞》《写作与沟通论文：论〈大话西游〉中代入式情感体验》 |
+| [Gaming](/blog/tags/?tag=Gaming) | 游戏带来的经历和思考，聊玩过什么、为什么喜欢，以及游戏与生活的关系。 | 《游戏史 - 序言》 |
+| [Study](/blog/tags/?tag=Study) | 学习笔记、入门指南、命令备忘和课程作业，给自己留一份可以回头查的记录。 | 《命令行入门》《模型入门》《简单命令总结》 |
+| [Openclaw](/blog/tags/?tag=Openclaw) | 专门收纳 OpenClaw 的使用、部署与调试经验；它也是 `Study` 里的一条细分线索。 | 《openclaw 使用指南》 |
+
+

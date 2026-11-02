@@ -1,4 +1,5 @@
 import { defineClientConfig } from 'vuepress/client'
+import RecentPosts from './theme/components/RecentPosts.vue'
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
@@ -10,6 +11,7 @@ import { defineClientConfig } from 'vuepress/client'
 
 export default defineClientConfig({
   enhance({ app }) {
+    app.component('RecentPosts', RecentPosts)
     // built-in components
     // app.component('RepoCard', RepoCard)
     // app.component('NpmBadge', NpmBadge)
